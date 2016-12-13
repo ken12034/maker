@@ -1,0 +1,9 @@
+<div class="left">
+  <div class="box-content">
+    <h2>熱門商品</h2>
+    <div ng-repeat="item in items">
+      {{ $index+1 }}. {{item.name}}
+      <img class="hotImage" src={{item.image}} />
+    </div>
+  </div>
+</div>
